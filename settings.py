@@ -8,5 +8,3 @@ try:
     from local_settings import *
 except ImportError as e:
     print(e)
-
-print(ELASTIC_USERNAME)
