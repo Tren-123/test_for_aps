@@ -27,12 +27,12 @@ def get_db():
         db.close()
 
 
-class Text(BaseModel):
+class TextToSearch(BaseModel):
     text: str
 
 
 @app.post("/search/")
-def search_by_text(text: Text,  db: Session = Depends(get_db)) -> List[PostBase]:
+def search_by_text(text: TextToSearch,  db: Session = Depends(get_db)) -> List[PostBase]:
     query = {
     "match": {
       "text": text.text
