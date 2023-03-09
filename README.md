@@ -7,7 +7,7 @@
 ```
 $ git clone https://github.com/Tren-123/test_for_aps
 ```
-2. Скачайте базу данных sqllite https://disk.yandex.ru/d/RokGWuuHsQpZcA и добавьте в родительскую директорию проекта
+2. Скачайте базу данных sqlite https://disk.yandex.ru/d/RokGWuuHsQpZcA и добавьте в родительскую директорию проекта
 
 3. Создайте и запустите виртуальное окружение
 ```
