@@ -7,18 +7,20 @@
 ```
 $ git clone https://github.com/Tren-123/test_for_aps
 ```
-2. Создайте и запустите виртуальное окружение
+2. Скачайте базу данных sqllite https://disk.yandex.ru/d/RokGWuuHsQpZcA и добавьте в родительскую директорию проекта
+
+3. Создайте и запустите виртуальное окружение
 ```
 $ python3 -m venv venv
 $ source venv/bin/activate
 ```
-3. Установите необходимые пакеты
+4. Установите необходимые пакеты
 ```
 $ pip install -r requrements.txt
 ```
-4. В settings.py укажите необходимые настройки для подключения к elastic cloud
+5. В settings.py укажите необходимые настройки для подключения к elastic cloud
 
-5. Запустите сервер
+6. Запустите сервер
 ```
 $ uvicorn main:app
 ```
